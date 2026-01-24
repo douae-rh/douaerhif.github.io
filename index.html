@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveurs & Délices | Ma Passion Culinaire</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS INTERNE : Spécifique aux effets de texte et arrondis demandés */
+        h1 {
+            background-color: #ffffff;
+            color: #6D071A;
+            padding: 20px;
+            border-radius: 50px; /* Coins arrondis */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombrage texte */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Ombrage boite */
+            display: inline-block;
+        }
+        
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background: #6D071A;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+       <img src="maphoto.JPG" alt="ma photo" class="profile-pic">
+        <h1>Ma Cuisine</h1>
+        
+        <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://github.com/douae-rh" alt="QR Code GitHub">
+            <p>Mon GitHub</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#entrees">Entrées</a></li>
+            <li><a href="#plats">Plats</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#planning">Planning</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <section id="entrees">
+    <h2>Bienvenue dans mon Univers Culinaire</h2>
+    <article>
+        <h3>À propos de cette page</h3>
+        <p>
+            Cette page est une célébration de l'art de vivre et de la gastronomie. À travers ce carnet digital, 
+            je partage avec vous mes recettes préférées, mon planning hebdomadaire et ma passion pour les 
+            saveurs authentiques.
+        </p>
+
+        <h3>Le Patrimoine : La Cuisine Marocaine</h3>
+        <p>
+            Considérée comme l'une des meilleures au monde, la cuisine marocaine est un mélange subtil de saveurs 
+            berbères, arabes et mauresques. Elle se distingue par l'usage savant des épices (comme le Ras el Hanout), 
+            l'alliance audacieuse du **sucré-salé** et la convivialité du partage autour d'un plat unique.
+        </p>
+        <aside>
+            <p><strong>Le saviez-vous ?</strong> Le thé à la menthe n'est pas qu'une boisson, c'est un rite d'hospitalité incontournable au Maroc.</p>
+        </aside>
+    </article>
+</section>
+
+       <section id="plats">
+    <h2>Nos Plats Emblématiques</h2>
+    <p>Voici une sélection des joyaux de notre gastronomie :</p>
+    <ul>
+        <li><strong>Le Couscous :</strong> Le plat du vendredi, aux sept légumes et à la semoule fine.</li>
+        <li><strong>Le Tajine :</strong> Qu'il soit au poulet-citron, à l'agneau-pruneaux ou aux keftas.</li>
+        <li><strong>La Pastilla :</strong> Un feuilleté prestigieux, sucré-salé, souvent au poulet et aux amandes.</li>
+        <li><strong>La Tanjia Marrakchia :</strong> Le plat de viande mijoté lentement dans un pot de terre.</li>
+        <li><strong>La Harira :</strong> La soupe traditionnelle riche en saveurs, reine du mois de Ramadan.</li>
+    </ul>
+</section>
+       <section id="desserts">
+          <h2>Délices Sucrés</h2>
+             <p>Pour finir sur une note de douceur, le Maroc propose des       pâtisseries fines :</p>
+    <ul>
+        <li><strong>Cornes de Gazelle :</strong> Pâte fine et cœur fondant à l'amande et fleur d'oranger.</li>
+        <li><strong>Chebakia :</strong> Roses de pâte frites, enrobées de miel et de graines de sésame.</li>
+        <li><strong>Briouates sucrées :</strong> Triangles croustillants fourrés aux amandes.</li>
+        <li><strong>Baghrir :</strong> Les célèbres crêpes "mille trous" servies avec beurre et miel.</li>
+    </ul>
+</section>
+
+        <section id="planning">
+    <h2>Planning de la Semaine Marocaine</h2>
+    <table class="nutrition-table">
+        <thead>
+            <tr>
+                <th>Jour</th>
+                <th>Menu du Déjeuner</th>
+                <th>Calories</th>
+                <th>Temps</th>
+                <th>Difficulté</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lundi</td>
+                <td>Tajine de Poulet aux Olives</td>
+                <td>550</td>
+                <td>45 min</td>
+                <td>Moyenne</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>Sardines Grillées & Zaalouk</td>
+                <td>420</td>
+                <td>30 min</td>
+                <td>Facile</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>Rfissa au Poulet</td>
+                <td>750</td>
+                <td>90 min</td>
+                <td>Difficile</td>
+            </tr>
+            <tr>
+                <td>Jeudi</td>
+                <td>Seffa Medfouna</td>
+                <td>600</td>
+                <td>60 min</td>
+                <td>Moyenne</td>
+            </tr>
+            <tr>
+                <td>Vendredi</td>
+                <td>Couscous Royal</td>
+                <td>850</td>
+                <td>120 min</td>
+                <td>Difficile</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+       <section id="contact">
+    <h2>Me Contacter</h2>
+    <div style="text-align: center; border: 2px dashed #6D071A; padding: 20px; border-radius: 15px;">
+        <p>Une demande de recette ou une collaboration ?</p>
+        <p><strong>📞 Téléphone :</strong> 0674878636</p>
+        <p><strong>📧 Email :</strong> douaerhife@gmail.com</p>
+        <br>
+        <a href="mailto:douaerhife@gmail.com" class="btn-email">Envoyer un Message Rapide</a>
+    </div>
+</section>
+    </main>
+
+    <aside>
+        <h3>Astuce du chef</h3>
+        <p>Toujours assaisonner à la fin de la cuisson pour préserver les saveurs des herbes fraîches.</p>
+    </aside>
+
+    <footer>
+        <pre>
+  ____   ___  _   _    _    _____ 
+ |  _ \ / _ \| | | |  / \  | ____|
+ | | | | | | | | | | / _ \ |  _|  
+ | |_| | |_| | |_| |/ ___ \| |___ 
+ |____/ \___/ \___//_/   \_\_____|
+        </pre>
+        <p class="copyright">© 2026 - rhif douae - Tous droits réservés</p>
+    </footer>
+
+    <a href="#home" id="back-to-top">↑ Haut</a>
+
+</body>
+</html>
